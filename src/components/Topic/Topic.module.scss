@@ -1,0 +1,14 @@
+.topicContainer{
+    background-color: var(--white);
+
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 0 2rem;
+    margin-bottom: 10px;
+    .title {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--gray-800);
+    }
+}
