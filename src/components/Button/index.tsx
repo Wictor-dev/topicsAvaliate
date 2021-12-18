@@ -1,23 +1,26 @@
 import React from 'react'
-import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai'
+import { AiFillLike, AiFillDislike } from 'react-icons/ai'
 type ButtonProps = {
     title?: string
     like?: boolean
     dislike?: boolean
     onClick?: () => void
+    color: string
 }
 
-export function Button({title, like, dislike, onClick}: ButtonProps){
+export function Button({title, like, dislike, onClick, color}: ButtonProps){
     return (
-        <button onClick={onClick}>
+        <button onClick={onClick} style={{background: '#999999'}}>
             {like && (
-                <AiOutlineLike 
-                    size={25}                    
+                <AiFillLike 
+                    size={25}     
+                    color={color}               
                 />
             )}
             {dislike && (
-                <AiOutlineDislike
+                <AiFillDislike
                     size={25}
+                    color={color}
                 />
             )}
             {!like && !dislike && (

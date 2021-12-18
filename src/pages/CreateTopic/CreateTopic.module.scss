@@ -1,0 +1,19 @@
+.topicContainer {
+    width: 100%;
+    margin-top: 4rem;
+    .inputContainer {
+        border-radius: 10px;
+        width: 30%;
+        height: 20vh;
+        margin: auto;
+    }
+
+    button {
+        background: var(--blue);
+        padding: 0.7rem 1rem;
+        border-radius: 10px;
+        border: 1px solid var(--blue-dark);
+        margin-top: 1rem;
+    }
+    
+}

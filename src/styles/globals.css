@@ -9,7 +9,9 @@
   --aqua-90: #dfe7fd;
   --yellow: #f0efeb;
   
+  --blue-dark: #9cbcc2;
   --blue: #bee1e6;
+
   --white: #fff;
 
 
@@ -26,4 +28,17 @@ body {
 
 button {
   cursor: pointer;
+}
+
+label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+input {
+  border: 1px solid var(--white);
+  border-radius: 10px;
+  width: 100%;
+  padding: 1rem 0 1rem 1rem;
+
+  font-size: 1rem;
 }

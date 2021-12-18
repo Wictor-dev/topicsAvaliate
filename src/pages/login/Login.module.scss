@@ -1,0 +1,32 @@
+.loginContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    form {
+        display: flex;
+        flex-direction: column;
+        .inputContainer {
+            width: 70%;
+            margin: auto;
+            
+            input {
+                margin: 0.7rem 0 1rem 0;
+            }
+            
+        }
+    
+        .buttonContainer {
+            width: 20%;
+            align-self: flex-end;
+            button {
+                background: var(--blue);
+                padding: 0.7rem 1rem;
+                border-radius: 10px;
+                border: 1px solid var(--blue-dark);
+                margin-right: 1rem;
+            }
+        }
+    }
+    
+}
